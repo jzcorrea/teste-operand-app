@@ -1,0 +1,35 @@
+{{#operand-form action="save"}}
+    {{#operand-page-header}}
+        <button type="submit" class="btn btn-success">
+            {{fa-icon "save"}} Salvar
+        </button>
+    {{/operand-page-header}}
+    <div class="row">
+        <div class="col-sm">
+            <div class="form-group">
+                <label for="name">*Nome</label>
+                {{input name="name" class="form-control" required=true}}
+            </div>
+        </div>
+        <div class="col-sm">
+            <div class="form-group">
+                <label for="email">*E-mail</label>
+                {{input type="email" name="email" class="form-control" required=true}}
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm">
+            <div class="form-group">
+                <label for="password">*Senha</label>
+                {{input type="password" name="password" class="form-control" required=true}}
+            </div>
+        </div>
+        <div class="col-sm">
+            <div class="form-group">
+                <label for="confirm-password">*Confirmar senha</label>
+                {{input type="password" name="confirm-password" class="form-control" required=true}}
+            </div>
+        </div>
+    </div>
+{{/operand-form}}

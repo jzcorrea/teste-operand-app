@@ -1,0 +1,30 @@
+nav.navbar a.navbar-brand img {
+    width: 30px;
+    height: 30px;
+}
+
+div.operand-page-header {  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #EEEEEE;
+    padding: 8px 0px;
+    margin-bottom: 16px;
+}   
+
+div.operand-page-header h3 {
+    width: 50%;
+    display: inline-flex;
+    align-self: flex-start;
+    margin: 0px;
+}
+
+div.operand-page-header div.buttons {
+    width: 50%;
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+form.operand-form label {
+    font-weight: 600;
+}
